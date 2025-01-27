@@ -325,6 +325,7 @@ body {
   text-align: center;
   color: #fff;
 }
+
 @media (min-resolution: 192dpi) {
   .hero {
     background-image: linear-gradient(
@@ -367,18 +368,17 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 36px;
-  }
-  .button-service {
-    margin-top: 0;
-  }
-  .title-text {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07143;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    max-width: 496px;
+  }
+  .button-service {
+    margin-top: 0;
+  }
+  .title-text {
   }
   .hero {
     background-color: #2e2f42;
