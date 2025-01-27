@@ -338,7 +338,8 @@ body {
   text-align: center;
   color: #fff;
 }
-.title-text {
+.title-mob {
+  max-width: 210px7;
   font-size: 36px;
 }
 
