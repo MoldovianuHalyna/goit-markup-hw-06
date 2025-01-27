@@ -841,6 +841,16 @@ body {
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer-icon-link:hover {
+  background-color: #31d0aa;
+}
+
+.footer-icon-link:focus {
+  background-color: #31d0aa;
+}
+.f-icon {
+  fill: #f4f4fd;
+}
 .container-form {
   display: flex;
   flex-direction: column;
