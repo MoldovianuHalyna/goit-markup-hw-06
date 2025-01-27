@@ -331,7 +331,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 36px;
+
   font-weight: 700;
   line-height: 1.07143;
   letter-spacing: 0.02em;
@@ -495,7 +495,7 @@ body {
   font-size: 36px;
   line-height: 1.11111;
   letter-spacing: 0.02em;
-
+  text-align: center;
   color: #2e2f42;
   margin-bottom: 8px;
 }
@@ -519,6 +519,9 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .feature {
+    text-align: start;
   }
   .item {
     flex-basis: calc((100% - 24px) / 2);
@@ -699,6 +702,9 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
 }
 .project {
   font-weight: 500;
@@ -774,7 +780,6 @@ body {
 @media screen and (min-width: 1200px) {
   .section_portfolio {
     padding-bottom: 120px;
-    margin-bottom: 72px;
   }
   .project_list {
     column-gap: 24px;
@@ -911,6 +916,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 16px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -926,14 +932,16 @@ body {
 
 /* tablet styles */
 @media screen and (min-width: 768px) {
+  .footer {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
   .container-footer {
     margin: 0 auto;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    padding-top: 96px;
-    padding-left: 108px;
   }
   .footer_logo {
     margin-top: 0;
@@ -941,9 +949,11 @@ body {
   .footer-content {
     display: block;
   }
+  .footer-text {
+    margin-bottom: 0;
+  }
   .container-form {
     display: block;
-    margin-bottom: 96px;
   }
   .container-form-paragraph {
     font-weight: 400;
@@ -970,7 +980,6 @@ body {
     flex-wrap: nowrap;
     align-items: baseline;
     gap: 0px;
-    padding: 100px 15px;
   }
   .footer-text {
     min-width: 264px;
